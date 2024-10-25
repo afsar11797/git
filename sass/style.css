@@ -1,0 +1,118 @@
+* {
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: block;
+  margin: auto;
+  font-family: "Oxanium", sans-serif;
+}
+
+.hot-deals {
+  display: flex;
+  justify-content: space-between;
+}
+.hot-deals .left {
+  align-content: center;
+  margin: 0 auto;
+}
+.hot-deals .left h2 {
+  color: rgb(45, 95, 95);
+  font-size: 30px;
+  margin: 20px 0;
+}
+.hot-deals .left p {
+  color: rgb(123, 170, 170);
+  font-size: 20px;
+  margin: 20px 0;
+}
+.hot-deals .left button {
+  padding: 5px;
+  color: rgb(0, 0, 0);
+}
+
+.products-feature {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(242, 241, 241);
+}
+.products-feature img {
+  width: 400px;
+  height: 400px;
+}
+.products-feature .product-left {
+  display: flex;
+}
+.products-feature .product-left h5 {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  position: relative;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto 10px;
+  gap: 1rem;
+}
+.products-feature img {
+  border: 2px solid black;
+}
+.products-feature button {
+  height: 20px;
+  color: rgb(0, 0, 0);
+}
+.products-feature .product-right {
+  display: flex;
+}
+.products-feature .product-right h5 {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  position: relative;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto 10px;
+  gap: 1rem;
+}
+.products-feature img {
+  border: 2px solid black;
+}
+.products-feature button {
+  height: 20px;
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+}
+
+@media (max-width: 500px) {
+  .hot-deals {
+    display: block;
+    padding: 25px;
+  }
+  .hot-deals .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hot-deals img {
+    width: 100%;
+    padding: 10px;
+  }
+  .products-feature {
+    display: block;
+  }
+  .products-feature .product-left {
+    padding: 5px 25px;
+    display: block;
+  }
+  .products-feature .product-right {
+    display: block;
+    padding: 5px 25px;
+  }
+}/*# sourceMappingURL=style.css.map */

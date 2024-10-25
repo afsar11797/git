@@ -1,0 +1,26 @@
+.footer-title {
+  background-color: black;
+  h2,
+  h5,
+  .social-icons,
+  .fab {
+    gap: 32px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+}
+.quick-links-head {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+}
+.quick-links {
+  color: white;
+  li {
+    font-size: 10px;
+    list-style: none;
+    color: white;
+  }
+}
